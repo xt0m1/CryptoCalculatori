@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="UTF-8">
+      <link rel="stylesheet" href="css/main.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	  <title>Calculatori</title>
+	</head>
+
+	<body>
+	  <h1>Laskuri</h1>
+
+	  <div class="block">
+	    <input type="image" src="images/Dollar-logo.png" class="page" onclick="location.href='dollar.html'">
+	      <input type="image" src="images/Euro-logo.png" class="page" onclick="location.href='euro.html'">
+		<input type="image" src="images/Btc-logo.png" class="page" onclick="location.href='btc.html'">
+		</div>
+
+		<div class="block">
+		  <label>Tulo</label>
+		  <input type="text" title="Louhintatulo" id="income"/>
+		</div>
+		<div class="block">
+		  <label>AHinta</label>
+		  <input type="text" title="Alku kappalehinta btc" id="oprice"/>
+		</div>
+		<div class="block">
+		  <label>SHinta</label>
+		  <input type="text" title="Sulku kappalehinta btc" id="cprice"/>
+		</div>
+		<div class="block">
+		  <label>ABtc $</label>
+		  <input type="text" title="Alku btc hinta $" id="obprice"/>
+		</div>
+		<div class="block">
+		  <label>SBtc $</label>
+		  <input type="text" title="Sulku Btc hinta $" id="cbprice"/>
+		</div>
+		<div class="block">
+		  <label>Aika</label>
+		  <input type="text" title="Louhinta päivät" id="time"/>
+		</div>
+		<div class="block">
+		  <label>Watti</label>
+		  <input type="text" title="Wattimäärä" id="watt"/>
+		</div>
+		<div class="block">
+		  <label>Kwh</label>
+		  <input type="text" title="Kiinteistön kWh/kk" id="kwhkk"/>
+		</div>
+		<div class="block">
+		  <label>Kk</label>
+		  <input type="text" title="Kuukauden päivät" id="kkpt"/>
+		</div>
+		<div class="block">
+		  <label>Yleis</label>
+		  <input type="text" title="Yleissiirto kulutusmaksu snt/kWh" id="yleisk"/>
+		</div>
+		<div class="block">
+		  <label>Perusv</label>
+		  <input type="text" title="Perusmaksu $/v" id="perusv"/>
+		</div>
+		<div class="block">
+		  <label>Svero</label>
+		  <input type="text" title="Sähkövero snt/kwh" id="svero"/>
+		</div>
+		<div class="block">
+		  <label>Energia</label>
+		  <input type="text" title="Energiamaksu snt/kWh" id="senergia"/>
+		</div>
+		<div class="block">
+		  <label>Perusk</label>
+		  <input type="text" title="Perusmaksu $/kk" id="perusk"/>
+		</div>
+		<div class="block">
+		  <label>Netti</label>
+		  <input type="text" title="Nettimaksu $/kk" id="netti"/>
+		</div>
+		<div class="block">
+		  <input type="hidden" id="aprice"/>
+		</div>
+		<div class="block">
+		  <input type="hidden" id="abprice"/>
+		</div>
+		<div class="block">
+		  <input type="hidden" id="isum"/>
+		</div>
+		<div class="block">
+		  <input type="hidden" id="iesum"/>
+		</div>
+		<div class="block">
+		  <input type="hidden" id="bp"/>
+		</div>
+		<div class="block">
+		  <input type="hidden" id="kwh"/>
+		</div>
+			<div class="block">
+		  <input type="hidden" id="kwhs"/>
+		</div>
+		<div class="block">
+		  <input type="hidden" id="kwhsk"/>
+		</div>
+		<div class="block">
+		  <input type="hidden" id="prosentti"/>
+		</div>
+		<div class="block">
+		  <input type="hidden" id="yleisku"/>
+		</div>
+		<div class="block">
+		  <input type="hidden" id="perusve"/>
+		</div>
+		<div class="block">
+		  <input type="hidden" id="sahkove"/>
+		</div>
+		<div class="block">
+		  <input type="hidden" id="sahkoenergia"/>
+		</div>
+		<div class="block">
+		  <input type="hidden" id="perusku"/>
+		</div>
+		<div class="block">
+		  <input type="hidden" id="nettim"/>
+		</div>
+		<div class="block">
+		  <input type="hidden" id="tcost"/>
+		</div>
+		<div class="block">
+		  <input type="hidden" id="btcost"/>
+		</div>
+		<div class="block">
+		  <label id="sump" style="visibility: hidden">Tulo</label>
+		  <input style="visibility: hidden" title="Nettotulo" name="sum" id="sum"/>
+		</div>
+		<div class="block">
+		  <button class="button" id="calculate">Laske</button>
+		  <button class="button" id="save">Tallenna</button>
+		  <button class="button" id="clear" onclick="h()">Tyhjennä</button>
+		  <p></p>
+		</div>
+		<div class="block">
+		  <textarea style="visibility: hidden" id="textarea2" rows="10"></textarea>
+		</div>
+	      </body>
+	      <script src="js/btc2.js"></script>
+	    </html>
