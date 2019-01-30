@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="css/main.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<title>Calculatori</title>
+	</head>
+
+	<body>
+		<h1>Laskuri</h1>
+
+		<div class="block">
+			<input type="image" src="images/Dollar-logo.png" class="page" onclick="location.href='dollar2.html'">
+			<input type="image" src="images/Euro-logo.png" class="page" onclick="location.href='euro.html'">
+			<input type="image" src="images/Btc-logo.png" class="page" onclick="location.href='btc.html'">
+		</div>
+
+		<div class="block">
+			<label>Osto</label>
+			<input type="text" title="Ostomäärä" id="buy">
+		</div>
+		<div class="block">
+			<label>Hinta</label>
+			<input type="text" title="Kappalehinta $" id="bprice">
+		</div>
+		<div class="block">
+			<label>Myynti</label>
+			<input type="text" title="Myyntimäärä" id="sell">
+		</div>
+		<div class="block">
+			<label>Hinta</label>
+			<input type="text" title="Kappalehinta $" id="sprice">
+		</div>
+		<div class="block">
+			<input type="hidden" id="buysum"/>
+			<input type="hidden" id="sellsum"/>
+			<input type="hidden" id="p"/>
+			<input type="hidden" id="buytotal"/>
+		</div>
+		<div class="block">
+			<label id="sump" style="visibility: hidden">Tulo</label>
+			<input style="visibility: hidden" title="Nettotulo" id="sum">
+		</div>
+
+		<div class="block">
+		<button class="button" id="calculate">Laske</button>
+		<button class="button" id="save">Tallenna</button>
+		<button class="button" id="clear" onclick="h()">Tyhjennä</button>
+		<p></p>
+		</div>
+		<div class="block">
+		<textarea style="visibility: hidden" id="textarea2" rows="10"></textarea>
+		</div>
+	</body>
+	<script src="js/dollar.js"></script>
+</html>

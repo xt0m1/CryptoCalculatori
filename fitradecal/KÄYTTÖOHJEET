@@ -1,0 +1,45 @@
+	Calculatori
+
+Sarakkeiden yläpuolella olevia  $, € ja Btc logoja voi klikata
+
+$ lopputulos on $
+€ lopputulos on €
+Btc lopputulos on Btc
+
+$ ja € logoja voi klikata 2 kertaa
+
+1 klikkaus $, € tai Btc jos virtuaalivaluutalla on kyseinen hinta on tiedossa
+
+2 klikkausta $ tai € jos virtuaalivaluutalla ei ole $ tai € hintaa
+  silloin käytetään laskiessa Btc:n hintaa
+
+
+Kun valinta näistä vaihtoehdoista on tehty, siirrytään sarakkeiden täyttöön
+Muista käyttää pisteitä pilkkujen sijaan
+Esim. 0.1
+
+Kun hiiren laittaa sarakkeen päälle, saa hieman suuntaa antavaa tietoa kyseisestä sarakkeesta
+
+
+Osto : Ostomäärä = Kappalemäärä ostettua virtuaalivaluuttaa
+
+Hinta : Kappalehinta = Ostohetken kappalehinta
+
+(Btc : Btc hinta = Ostohetkellä 1 btc:n hinta)
+
+Myynti : Myyntimäärä = Kappalemäärä myytyä virtuaalivaluuttaa
+
+Hinta : Kappalehinta = Myyntihetken kappalehinta
+
+(Btc : Btc hinta = Myyntihetkellä 1 btc:n hinta)
+
+
+Kun kaikki sarakkeet on täytetty paina painiketta Laske
+Sitten ilmestyy sarake Tulo = Nettotulo
+
+$ ja € laskuja laskiessa saat nettotulon pyöristettynä sentin tarkkuudella
+Btc laskuja laskiessa saat nettotulon pyöristettynä satoshin tarkkuudella
+
+Tallenna painikkeella saa esiin laskutoimitukset, jotka on siitä helppo kopioida
+
+Tyhjennä painikkeella voi ladata sivun uudestaan (Ctrl + R)
