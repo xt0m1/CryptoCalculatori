@@ -1,6 +1,6 @@
 # CryptoCalculatori
 
-Laskurit PoW louhintaan ja treidaukseen
+Laskuri PoW louhintaan ja treidaukseen
 
 Lukekaa KÄYTTÖOHJEET
 
