@@ -1,7 +1,7 @@
 # CryptoCalculatori
 
-Laskuri PoW louhintaan ja treidaukseen
+PoW louhintaan ja treidaukseen omat versiot
 
 Lukekaa KÄYTTÖOHJEET
 
-(Huom! Tämä on Alpha-versio)
+(Huom! Alpha-versio)
