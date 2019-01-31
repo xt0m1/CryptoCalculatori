@@ -121,7 +121,7 @@ document.getElementById('save').onclick = function() {
     var cy="=" + parseFloat(document.getElementById("sellsum").value) + " $";
     var df=" ";
     var nt="Nettotulo";
-    var g=parseFloat(document.getElementById("sellsum").value) + "-" + parseFloat(document.getElementById("buysum").value) + " $";
+    var g=parseFloat(document.getElementById("sellsum").value) + "-" + parseFloat(document.getElementById("buysum").value);
     var h="=" + parseFloat(document.getElementById("sum").value) + " $";
     var v=[hhb, a, b, c, hhe, ba, cd, we, mhb, d, e, f, mhe, bu, cy, df, nt, g, h];
     document.getElementById("textarea2").value=v.join("\n");
