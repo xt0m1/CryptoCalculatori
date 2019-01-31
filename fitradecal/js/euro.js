@@ -89,7 +89,7 @@ document.getElementById('save').onclick = function() {
 		var e="=" + parseFloat(document.getElementById("sellsum").value) + " €";
 		var f=" ";
 		var nt="Nettotulo";
-		var g=parseFloat(document.getElementById("sellsum").value) + "-" + parseFloat(document.getElementById("buysum").value) + " €";
+		var g=parseFloat(document.getElementById("sellsum").value) + "-" + parseFloat(document.getElementById("buysum").value);
 		var h="=" + parseFloat(document.getElementById("sum").value) + " €";
 		var v=[hh, a, b, c, mh, d, e, f, nt, g, h];
 		document.getElementById("textarea2").value=v.join("\n");
