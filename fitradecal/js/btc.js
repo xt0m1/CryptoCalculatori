@@ -87,7 +87,7 @@ document.getElementById('save').onclick = function() {
     var e="=" + parseFloat(document.getElementById("sellsum").value) + " btc";
     var f=" ";
     var nt="Nettotulo";
-    var g=parseFloat(document.getElementById("sellsum").value) + "-" + parseFloat(document.getElementById("buysum").value) + " btc";
+    var g=parseFloat(document.getElementById("sellsum").value) + "-" + parseFloat(document.getElementById("buysum").value);
     var h="=" + parseFloat(document.getElementById("sum").value) + " btc";
     var v=[hh, a, b, c, mh, d, e, f, nt, g, h];
     document.getElementById("textarea2").value=v.join("\n");
