@@ -85,7 +85,7 @@ document.getElementById('save').onclick = function() {
     var d=parseFloat(document.getElementById("sell").value) + "*" + parseFloat(document.getElementById("sprice").value);
     var e="=" + parseFloat(document.getElementById("sellsum").value) + " $";
     var f=" ";
-    var nt="Nettotulo"
+    var nt="Arvonnousu"
     var g=parseFloat(document.getElementById("sellsum").value) + "-" + parseFloat(document.getElementById("buysum").value);
     var h="=" + parseFloat(document.getElementById("sum").value) + " $";
     var v=[hh, a, b, c, mh, d, e, f, nt, g, h];
@@ -107,7 +107,7 @@ document.getElementById('save').onclick = function() {
     var x=parseFloat(document.getElementById("buysum").value) + "÷100*" + parseFloat(document.getElementById("p").value);
     var ad="=" + parseFloat(document.getElementById("buytotal").value) + " $";
     var m=" ";
-    var nt="Nettotulo";
+    var nt="Arvonnousu";
     var ab=parseFloat(document.getElementById("sellsum").value) + "-" + parseFloat(document.getElementById("buytotal").value);
     var ac="=" + parseFloat(document.getElementById("sum").value) + " $";
     var v=[hh, a, w, r, mh, d, y, u, mpo, s, j, n, mmh, x, ad, m, nt, ab, ac];
