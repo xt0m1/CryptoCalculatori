@@ -35,11 +35,11 @@ Hinta : Kappalehinta = Myyntihetken kappalehinta
 
 
 Kun kaikki sarakkeet on täytetty paina painiketta Laske
-Sitten ilmestyy sarake Tulo = Nettotulo
+Sitten ilmestyy sarake Tulo = Arvonnousu
 
-$ ja € laskuja laskiessa saat nettotulon pyöristettynä sentin tarkkuudella
-Btc laskuja laskiessa saat nettotulon pyöristettynä satoshin tarkkuudella
+$ ja € laskuja laskiessa saa arvonnousun pyöristettynä sentin tarkkuudella
+Btc laskuja laskiessa saa arvonnousun pyöristettynä satoshin tarkkuudella
 
-Tallenna painikkeella saa esiin laskutoimitukset, jotka on siitä helppo kopioida
+Tallenna painikkeella saa esiin laskutoimitukset
 
 Tyhjennä painikkeella voi ladata sivun uudestaan (Ctrl + R)
